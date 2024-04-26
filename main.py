@@ -87,4 +87,3 @@ Dog = UndirectedGraph([('Labrador', 'Poodle'),
 print(Dog.shortest_distance('Golden Retriever', 'Labrador'))
 print(Dog.shortest_distance('Golden Retriever', 'Poodle'))
 print(Dog.shortest_distance('Samoyed', 'Labrador'))
-

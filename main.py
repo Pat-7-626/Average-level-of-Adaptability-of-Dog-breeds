@@ -64,7 +64,7 @@ class UndirectedGraph:
             if distance[f] == float('inf'):
                 result = f"There is no path from {s} to {f}."
             else:
-                result = (f"The shortest path from {s} to {f} is "
+                result = (f"The shortest distance from {s} to {f} is "
                           f"{distance[f]} step(s).")
         else:
             result = f"There is no path from {s} to {f}."
